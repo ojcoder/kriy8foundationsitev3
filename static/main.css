@@ -1,0 +1,26 @@
+/*
+.social-icon {
+  margin-top: 60px;
+  padding-right: 25px;
+  float: left;
+  border-bottom: 0px none #000;
+}
+*/
+input[type=checkbox] {
+  display: none;
+}
+
+
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+@media (max-width: 320px) {
+  #navbar fixed-bottom {
+      display: none;
+  }
+}
+
+
